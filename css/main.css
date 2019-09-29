@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 50%;
+    padding: 20px;
+    margin:  10px auto;
+
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+}
+
+    #wrapper header{
+        font-weight: bolder;
+        font-size: 2em;
+        font-family: sans-serif;
+        text-align: center;
+        text-decoration: underline;
+
+    }
+
+    #wrapper #selectNeighbourhood{
+
+        margin: 20px;
+        padding: 10px;
+
+        font-size: 1.6em;
+        font-family: sans-serif;
+        text-align: center;
+
+        border: 1px dashed lightgrey;
+        border-radius: 10px;
+    }
+
+    #wrapper #selectNeighbourhood select{
+        width: 50%;
+
+        border-radius: 5px;
+
+        font-size: 1em;
+        font-family: sans-serif;
+        text-align: center;
+
+        background-color: #b4d4bc;
+
+    }
+
+    #wrapper #parkList{
+        list-style: none;
+        padding-left: 0px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+        #wrapper #parkList .park{
+            margin: 5px;
+            padding: 5px;
+            width: 250px;
+
+            border: 2px dashed grey;
+        }
+
+            #parkList .park .parkName{
+                font-weight: bolder;
+                font-size: 1.3em;
+                font-family: sans-serif;
+                text-align: center;
+                text-decoration: underline;
+            }
