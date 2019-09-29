@@ -84,3 +84,14 @@ body{
                 text-align: center;
                 text-decoration: underline;
             }
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #wrapper {
+            width: 90%;
+        }
+
+        #wrapper #parkList .park{
+            width: 150px;
+        }
+    }
