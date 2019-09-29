@@ -8,13 +8,26 @@ body{
     padding: 20px;
     margin:  10px auto;
 
-    border: 2px solid lightgrey;
+    border: 2px solid #596659;
     border-radius: 20px;
 }
 
     #wrapper header{
         font-weight: bolder;
         font-size: 2em;
+        font-family: sans-serif;
+        text-align: center;
+        text-decoration: underline;
+
+    }
+
+    #wrapper footer{
+        color:#596659;
+
+        border-top: #596659 dashed 1px;
+        padding: 10px;
+
+        font-size: 0.9em;
         font-family: sans-serif;
         text-align: center;
         text-decoration: underline;
