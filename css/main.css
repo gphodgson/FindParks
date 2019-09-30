@@ -1,6 +1,8 @@
 body{
     margin: 0px;
     padding: 0px;
+
+    background: #181A1B;
 }
 
 #wrapper{
@@ -13,6 +15,8 @@ body{
 }
 
     #wrapper header{
+        color: white;
+    
         font-weight: bolder;
         font-size: 2em;
         font-family: sans-serif;
@@ -45,6 +49,8 @@ body{
 
         border: 1px dashed lightgrey;
         border-radius: 10px;
+
+        color: white;
     }
 
     #wrapper #selectNeighbourhood select{
@@ -56,7 +62,8 @@ body{
         font-family: sans-serif;
         text-align: center;
 
-        background-color: #b4d4bc;
+        background-color: #233D29;
+        color: white;
 
     }
 
@@ -68,16 +75,37 @@ body{
         flex-wrap: wrap;
         justify-content: space-around;
     }
+        #wrapper #parkList p{
+            color: white;
+        }
 
         #wrapper #parkList .park{
             margin: 5px;
             padding: 5px;
             width: 250px;
+            height:200px;
 
             border: 2px dashed grey;
+
+            text-align: center;
+
+            transition-property: all;
+            transition-duration: 0.5s;
         }
 
+        #wrapper #parkList .park:hover{
+            flex: 0 0 100%;
+
+            width: 290px;
+            height: 300px;
+
+            font-size: 1.5em;
+            background-color: #233D29;
+        }
+            
             #parkList .park .parkName{
+                margin-top: 10px;
+
                 font-weight: bolder;
                 font-size: 1.3em;
                 font-family: sans-serif;
