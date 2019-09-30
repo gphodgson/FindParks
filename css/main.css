@@ -73,7 +73,7 @@ body{
 
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
         #wrapper #parkList p{
             color: white;
@@ -120,6 +120,16 @@ body{
         }
 
         #wrapper #parkList .park{
-            width: 250px;
+            width: 500px;
+            height: 200px;
+            font-size: 1.3em;
+        }
+
+        #wrapper #parkList .park:hover{
+            width: 800px;
+            height: 500px;
+
+            font-size: 3em;
+            background-color: #233D29;
         }
     }
