@@ -119,7 +119,7 @@ body{
             }
 
             #parkList .park .parkLink{
-                color: #337DFF;
+                color: blue;
                 font-weight: bold;
                 font-size: 1.1em;
             }
@@ -137,10 +137,31 @@ body{
         }
 
         #wrapper #parkList .park:hover{
-            width: 800px;
-            height: 500px;
+            width: 650px;
+            height: 400px;
 
-            font-size: 3em;
+            font-size: 2em;
+            background-color: #233D29;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #wrapper {
+            width: 90%;
+        }
+
+        #wrapper #parkList .park{
+            width: 250px;
+            height: 200px;
+            font-size: 1em;
+        }
+
+        #wrapper #parkList .park:hover{
+            width: 400px;
+            height: 350px;
+
+            font-size: 1.5em;
             background-color: #233D29;
         }
     }
